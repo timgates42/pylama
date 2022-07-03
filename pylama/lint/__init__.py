@@ -39,7 +39,7 @@ class Linter(metaclass=LinterMeta):
         """
 
     def run(self, _path: str, **_meta) -> List[Dict[str, Any]]:  # noqa
-        """Legacy method (support old extenstions)."""
+        """Legacy method (support old extensions)."""
         return []
 
 

@@ -36,7 +36,7 @@ DUPLICATES: Dict[Tuple[str, str], Set] = {
         {('pylint", "C0321'), ("pycodestyle", "E702")},
         # bad indentation
         {("pylint", "W0311"), ("pycodestyle", "E111")},
-        # wildcart import
+        # wildcard import
         {("pylint", "W00401"), ("pyflakes", "W0401")},
         # module docstring
         {("pydocstyle", "D100"), ("pylint", "C0111")},

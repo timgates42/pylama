@@ -53,7 +53,7 @@ def prepare_sorter(val: Union[Collection[str], str]) -> Optional[Dict[str, int]]
 
 
 def parse_linters(linters: str) -> List[str]:
-    """Initialize choosen linters."""
+    """Initialize chosen linters."""
     return [name for name in split_csp_str(linters) if name in LINTERS]
 
 
